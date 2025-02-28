@@ -61,6 +61,7 @@ Enter a text prompt (optional).
 Upload an image (JPEG, JPG, PNG).
 
 Click Analyze Image.
+![image insight](https://github.com/user-attachments/assets/2dad797e-9175-4c90-a825-ae1ce8ddc411)
 
 View AI-generated insights.
 
