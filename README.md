@@ -54,14 +54,11 @@ GOOGLE_API_KEY=your_api_key_here
 
 streamlit run app.py
 
-📸 Usage
 
-Enter a text prompt (optional).
 
-Upload an image (JPEG, JPG, PNG).
-
-Click Analyze Image.
+Result:
 ![image insight](https://github.com/user-attachments/assets/2dad797e-9175-4c90-a825-ae1ce8ddc411)
 
-View AI-generated insights.
+
+![result](https://github.com/user-attachments/assets/f0d5d061-25c7-48a1-8e27-741a4ce986c8)
 
