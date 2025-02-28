@@ -55,8 +55,8 @@ GOOGLE_API_KEY=your_api_key_here
 streamlit run app.py
 
 
+**Result:
 
-Result:
 ![image insight](https://github.com/user-attachments/assets/2dad797e-9175-4c90-a825-ae1ce8ddc411)
 
 
