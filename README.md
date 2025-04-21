@@ -4,6 +4,7 @@ Image Insight AI is a Streamlit web application that uses Google's Gemini-1.5-Pr
 Users can upload any image and optionally provide a text prompt to guide the interpretation.
 
 🚀 Features
+
 ✅ Image Analysis
 Upload an image and receive AI-generated scene descriptions, object identification, and contextual analysis.
 
@@ -17,6 +18,7 @@ Simple, responsive, and interactive web UI for smooth image uploads and instant 
 Utilizes the latest Google Generative AI Vision API for advanced multimodal reasoning and descriptive response generation.
 
 🛠️ Technologies Used
+
 🐍 Python 3.x
 
 🎈 Streamlit – interactive web UI
@@ -28,54 +30,71 @@ Utilizes the latest Google Generative AI Vision API for advanced multimodal reas
 🔐 python-dotenv – environment variable management
 
 🔧 Setup & Installation
+
 1️⃣ Clone the Repository
+
 bash
-Copy
-Edit
+
 git clone https://github.com/your-username/gemini-vision-ai.git
+
 cd gemini-vision-ai
+
 2️⃣ Create a Virtual Environment (optional)
+
 bash
-Copy
-Edit
+
 python -m venv venv
 # For macOS/Linux:
 source venv/bin/activate
 # For Windows:
 venv\Scripts\activate
+
 3️⃣ Install Dependencies
 bash
-Copy
-Edit
+
 pip install -r requirements.txt
+
 4️⃣ Set Up API Key
+
 Create a .env file in the root directory and add your Google Gemini API key:
 
 dotenv
-Copy
-Edit
+
+
+
 GOOGLE_API_KEY=your_api_key_here
+
 💡 You can get your API key from Google AI Studio
 
 5️⃣ Run the Application
+
 bash
-Copy
-Edit
+
+
 streamlit run app.py
+
 ✅ Example Use Case
 
 Input Image	Output Description
-🏞️ Scenic Landscape	"A peaceful valley with mountains in the background, pine trees, and a flowing river under a cloudy sky."
-🧑‍🤝‍🧑 Crowd Image	"A group of people walking in a busy urban street, some wearing masks, with shops and buildings around."
+
+🏞️ Scenic Landscape	A peaceful valley with mountains in the background, pine trees, and a flowing river under a cloudy sky.
+
+🧑‍🤝‍🧑 Crowd Image	A group of people walking in a busy urban street, some wearing masks, with shops and buildings around.
+
 📁 Project Structure
+
 bash
-Copy
-Edit
+
 📦 gemini-vision-ai/
+
 ├── app.py
+
 ├── .env
+
 ├── requirements.txt
+
 └── README.md
+
 📣 Acknowledgements
 Google Generative AI
 
@@ -85,6 +104,7 @@ Pillow Image Library
 
 🙋‍♂️ Developed by
 Mohit Manohar
+
 💼 Graduate Apprentice (AI) – CSIR-CSIO
 
 **Result:
