@@ -5,8 +5,10 @@ import google.generativeai as genai
 from PIL import Image  # ✅ Import Image module
 
 # Load environment variables
-load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", st.secrets.get("GOOGLE_API_KEY"))
+if not GOOGLE_API_KEY:
+    st.error("⚠️ GOOGLE_API_KEY is missing! Add it in .env (local) or Streamlit secrets (Cloud).")
+    st.stop()
 
 # Function to get responses from Gemini Pro Vision model
 def get_gemini_response(input_text, image):
